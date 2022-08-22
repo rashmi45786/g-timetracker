@@ -12,7 +12,7 @@ HEADERS += \
 unix {
     target.path = /usr/lib
     INSTALLS += target
-}
+}/kkkkkk
 
 # timetracker lib
 win32:CONFIG(release, debug|release): LIBS += -L$$OUT_PWD/../../src/lib/release/ -ltimetracker
